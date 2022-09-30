@@ -1,0 +1,24 @@
+{
+  "name": "audrius_bit_40_sd3_projektas",
+  "version": "1.0.0",
+  "description": "Audrius_BIT_40_SD3_projektas",
+  "main": "index.js",
+  "scripts": {
+    "dev": "dead-server --port=4005 --host=localhost",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Audriusvilnius/Audrius_BIT_40_SD3_projektas.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Audriusvilnius/Audrius_BIT_40_SD3_projektas/issues"
+  },
+  "homepage": "https://github.com/Audriusvilnius/Audrius_BIT_40_SD3_projektas#readme",
+  "devDependencies": {
+    "dead-server": "^1.0.6"
+  }
+}
