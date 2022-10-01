@@ -3,14 +3,11 @@ body{
     margin-left: calc(50% - 600px);   
 }
 header{
- 
     background-color: rgb(171, 171, 232);
 }
 main{
-
-    background-color: rgb(189, 230, 147);
+    background-color: #505153;
 }
 footer{
- 
     background-color: rgb(223, 223, 129);
 }
