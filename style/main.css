@@ -3,7 +3,11 @@
     margin-left: calc(50% - 600px);   
 } */
 header{
-    background-color: rgb(171, 171, 232);
+    
+    background: url(coming-soon.png);
+    background-repeat:repeat-x;
+    /* background-size: cover; */
+   background-color: #03a9f4;
 }
 main{
     background-color: #505153;
