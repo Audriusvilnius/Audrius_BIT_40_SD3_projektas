@@ -1,17 +1,19 @@
-/* body{
-    width: 1200px;
-    margin-left: calc(50% - 600px);   
-} */
-header{
+body{
+    background-color: #0d8bc5;
+} 
+#header{
+
     
-    background: url(coming-soon.png);
-    background-repeat:repeat-x;
-    /* background-size: cover; */
-   background-color: #03a9f4;
+    background-image: url('../Image/coming-soon-mazas.png');
+    /* /* background-repeat: no-repeat; */
+    background-size: cover;
+
+
+
 }
 main{
     background-color: #505153;
 }
 footer{
-    background-color: #03a9f4;
+    background-color: #f4a403;
 }
