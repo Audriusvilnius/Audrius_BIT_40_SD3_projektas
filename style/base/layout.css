@@ -1,38 +1,50 @@
-body{
+body {
     display: inline-block;
     margin: 0;
 }
-main{
+
+main {
     float: left;
     width: 100%;
-    
+
 }
-.container{
+
+.container {
     float: left;
     width: 100%;
     padding-top: 60px;
     padding-bottom: 60px;
 }
 
-.row{
+.row {
     display: inline-block;
     width: 1000px;
-    margin-left:  calc(50% - 500px);
+    margin-left: calc(50% - 500px);
     background-color: greenyellow;
 
 }
-.row-short{
-    display: inline-block;
+
+.row-short {
+    display: flex;
     width: 600px;
     margin-left: calc(50% - 300px);
     background-color: pink;
 
 }
-.left-column{
-    float: left;
-    width: 50%;
+
+.main-content {
+    display: flex;
+    justify-content: ;
+
 }
-.right-colum{
+
+.left-column {
+    width: 50%;
+    
+}
+
+.right-colum {
+    width: 40%;
 
 
 }
