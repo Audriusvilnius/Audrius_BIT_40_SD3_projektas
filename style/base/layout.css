@@ -6,9 +6,9 @@ body {
 main {
     float: left;
     width: 100%;
-
 }
-h3{
+
+h3 {
     text-transform: uppercase;
 }
 
@@ -24,7 +24,6 @@ h3{
     width: 1000px;
     margin-left: calc(50% - 500px);
     background-color: greenyellow;
-
 }
 
 .row-short {
@@ -36,21 +35,26 @@ h3{
     align-items: center;
 }
 
-
-
 .main-content {
     display: flex;
-    justify-content:space-between
-
+    justify-content: space-between
 }
 
 .left-column {
     width: 50%;
-    
+
 }
 
 .right-column {
     width: 40%;
+}
+.social{
+    /* display: inline-block; */
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+   
+    text-align: center;
 
 
 }
