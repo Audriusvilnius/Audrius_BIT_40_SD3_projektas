@@ -1,0 +1,19 @@
+.timer {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: grid;
+    font: 2em sans-serif;
+    flex-direction: column;
+    align-content: space-around;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.row-timer {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    margin-left: calc(50% - 300px);
+    background-color: rgb(98, 18, 31);
+
+}

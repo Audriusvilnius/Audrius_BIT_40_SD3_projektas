@@ -5,19 +5,91 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projektas</title>
-    <link rel="stylesheet" href="./style/main.css">
+    <title>Coming soon</title>
+    <!-- base style -->
+    <link rel="stylesheet" href="./style/base/base.css">
+    <link rel="stylesheet" href="./style/base/layout.css">
+    <!-- 3rd-party -->
+    <link rel="stylesheet" href="./style/3rd-party/font-awesome.min.css">
+    <link rel="stylesheet" href="./style/components/buttom.css">
+    <link rel="stylesheet" href="./style/components/clock.css">
+    <link rel="stylesheet" href="./style/components/mouse.css">
+    <link rel="stylesheet" href="./style/components/progress-bar.css">
+    <!-- custom style -->
+    <script src="./js/timer.js"></script>
+
 </head>
 
 <body>
-    <header>
-        header
-    </header>
     <main>
-        main 
+        <section class="container hero bg-primary">
+            <div class="row-short">
+                <!-- HERO CONTENT -->
+                <h1><img src="./Image/logo.png" alt="logo" ></h1>
+                <img src="./Image/Coming_soon.png" alt="comming soon" >
+                <p> An awesom new company from web recources is coming very soon </p>
+                <p> Enter you email to reguest an early inivation!</p>
+            </div>
+            <div class="row-timer">
+                <i class="timer" id="days"></i>
+                <i class="timer" id="hours"></i>
+                <i class="timer" id="minutes"></i>
+                <i class="timer" id="seconds"></i>
+
+            </div>
+            <form >
+                <label for="email">Type you email:</label>
+                <input class="form" type="email" id="email" name="email" ><br>
+                <input class="form" type="submit" value="Submit">
+            </form>
+        </section>
+        <section class="container">
+            <div class="row main-content">
+                <div class="left-column">
+                    <!-- LEFT COLUMN -->
+                    <h3>ABOAUT STARTUP</h3>
+                    
+                </div>
+                <div class="right-column">
+                    <!-- RIGHT COLUMN -->
+                    <h3>have any question?</h3>
+                    
+                </div>
+            </div>
+        </section>
     </main>
-    <footer>
-        footer
+    <footer class="container bg-primary">
+        <div class="row">
+            <!-- SOCIALS -->
+            <a class="social" href="https://www.facebook.com" target="_blank">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+            <a class="social" href="https://www.twitter.com" target="_blank">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+            <a class="social" href="https://www.instagram.com" target="_blank">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+            </a>
+            <a class="social" href="https://www.tumblr.com/login" target="_blank">
+            <i class="fa fa-tumblr" aria-hidden="true"></i>
+            </a>
+            <a class="social" href="https://www.linkedin.com" target="_blank">
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+            </a>   
+            <a class="social" href="https://www.rss.com" target="_blank">
+                <i class="fa fa-rss" aria-hidden="true"></i>
+            </a>
+        </div>
+        <div class="row-short">
+            FOOTER BOTTOM TEXTS
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid provident maxime ab natus est inventore
+            amet molestiae assumenda libero id soluta similique incidunt placeat eius dolore porro enim sit sequi dicta
+            exercitationem voluptatum sunt, quo nemo? Voluptatum tempora perferendis enim sapiente. Pariatur omnis nisi
+            in neque, est doloremque. Deleniti eaque necessitatibus laboriosam possimus enim tempora obcaecati nobis
+            odio? Labore velit ducimus totam distinctio molestiae, vero, a expedita cum quibusdam delectus quia suscipit
+            inventore sint aspernatur illum. Quaerat aliquid debitis magni quidem tempore iure commodi. Vel quis iste
+            quasi, vero beatae iusto consequuntur, ipsa, quod quo excepturi in veritatis dolore aliquid?
+        </div>
     </footer>
 </body>
 
