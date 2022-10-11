@@ -1,5 +1,26 @@
-.hero{
+.hero {
     min-height: 100vh;
-    /* max-height: 100vh; */
+    text-align: center;
 
+}
+.hero > .row-short {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.logo {
+    height: 40px;
+    margin-bottom: 30px;
+    object-fit: contain;
+}
+.main-title {
+    font-size: 60px;
+}
+.main-description {
+    font-size: 20px;
+    color: #555;
+}
+.clock {
+    margin-top: 30px;
+    margin-bottom: 30px;
 }

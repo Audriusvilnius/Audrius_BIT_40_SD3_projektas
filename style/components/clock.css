@@ -1,6 +1,6 @@
 .timer {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    display: grid;
+    display: flex;
     font: 2em sans-serif;
     flex-direction: column;
     align-content: space-around;
@@ -11,9 +11,9 @@
 
 .row-timer {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     width: 600px;
     margin-left: calc(50% - 300px);
-    background-color: rgb(98, 18, 31);
+
 
 }
