@@ -1,6 +1,7 @@
 .hero {
     min-height: 100vh;
     text-align: center;
+
 }
 .hero > .row-short {
     display: flex;
@@ -13,7 +14,7 @@
     object-fit: contain;
 }
 .main-title {
-    font-size: 80px;
+    font-size: 60px;
 }
 .main-description {
     font-size: 20px;
