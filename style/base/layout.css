@@ -19,16 +19,15 @@ main {
 .row {
     float: left;
     width: 1000px;
-    margin-left: calc(50% - 500px); /* margin-left:0 calc(50% - 500px);*/
+    margin-left: calc(50% - 500px); /* margin:0 calc(50% - 500px);*/
     margin-right: calc(50% - 500px);
-    background-color: greenyellow;
+
 }
 
 .row-short {
     float: left;
     width: 600px;
     margin-left: calc(50% - 300px);
-    background-color: pink;
     flex-direction: column;
     align-items: center;
 }
@@ -97,6 +96,7 @@ main {
     .row,
     .row-short {
         width: 100%;
-        margin-left: 0;
+        margin: 0;
+        
     }
 }
