@@ -1,3 +1,11 @@
+.row-timer {
+    display: flex;
+    justify-content: space-evenly;
+    width: 600px;
+    margin-left: calc(50% - 300px);
+    object-fit: contain;
+    color: white;
+}
 .timer {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     display: flex;
@@ -10,23 +18,7 @@
     color: white;
 }
 
-.row-timer {
-    display: flex;
-    justify-content: space-evenly;
-    width: 600px;
-    margin-left: calc(50% - 300px);
 
-    object-fit: contain;
-    color: white;
-}
 
-.timer {
-    display: flex;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    justify-content: space-between;
-    font: 2em sans-serif;
-    object-fit: contain;
-    flex-wrap: wrap;
-    color: white;
-}
+
 
