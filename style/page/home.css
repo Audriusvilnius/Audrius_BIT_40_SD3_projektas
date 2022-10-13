@@ -80,5 +80,32 @@ footer a:hover {
 .bottom-trio{
     display: flex;
     justify-content: center;
+    gap: 0 30px;
 
+}
+.bottom-trio > span{
+    position: relative;
+}
+.bottom-trio > span::after{
+    content: '';
+    display: inline-block;
+    background-color: #fff;
+    width: 2px;
+    height: 20px;
+    position: absolute;
+    top: 0%;
+    right: -15px;
+    transform:translate(-50% 50%);
+    
+}
+.bottom-trio > span:last-child::after{
+    display: none;
+}
+@media (max-width: 700px){
+    .bottom-trio{
+        flex-direction: column;
+    }
+    .bottom-trio > span::after{
+        display: none;
+    }
 }
