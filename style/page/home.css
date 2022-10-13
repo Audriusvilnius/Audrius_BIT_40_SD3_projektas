@@ -72,3 +72,8 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
+.bottom-trio{
+    display: flex;
+    justify-content: center;
+
+}
