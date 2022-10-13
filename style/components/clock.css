@@ -2,7 +2,7 @@
     display:flex;   
     flex-wrap: wrap;
     color: white;
-    gap: 0px 30px;
+    gap: 30px 30px;
     font-size: large;
     text-transform: uppercase;
     justify-content: center;
