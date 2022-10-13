@@ -1,26 +1,111 @@
 .hero {
     min-height: 100vh;
     text-align: center;
+    background-image: url(../../Image/coming-soon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
 
 }
-.hero > .row-short {
+
+.hero>.row-short {
     display: flex;
     flex-direction: column;
     gap: 30px;
 }
+
 .logo {
     height: 40px;
     margin-bottom: 30px;
     object-fit: contain;
 }
+
 .main-title {
     font-size: 60px;
+
 }
+
 .main-description {
     font-size: 20px;
     color: #555;
 }
+
 .clock {
     margin-top: 30px;
     margin-bottom: 30px;
+}
+
+.left-column,
+.right-column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.section-title {
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.section-description {
+    font-size: 18px;
+    color: #555;
+}
+
+.section-description>a {
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+.section-description>a:hover {
+    color: var(--secondary-color);
+    text-decoration: underline;
+}
+
+footer.container {
+    padding-top: 0;
+    text-align: center;
+    color: #fffb;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+.bottom-trio{
+    display: flex;
+    justify-content: center;
+    gap: 0 30px;
+
+}
+.bottom-trio > span{
+    position: relative;
+}
+.bottom-trio > span::after{
+    content: '';
+    display: inline-block;
+    background-color: #fff;
+    width: 2px;
+    height: 20px;
+    position: absolute;
+    top: 0%;
+    right: -15px;
+    transform:translate(-50% 50%);
+    
+}
+.bottom-trio > span:last-child::after{
+    display: none;
+}
+@media (max-width: 700px){
+    .bottom-trio{
+        flex-direction: column;
+    }
+    .bottom-trio > span::after{
+        display: none;
+    }
 }
