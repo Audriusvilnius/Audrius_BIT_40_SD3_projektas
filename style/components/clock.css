@@ -1,24 +1,20 @@
-.row-timer {
-    display: flex;
-    justify-content: space-evenly;
-    width: 600px;
-    margin-left: calc(50% - 300px);
-    object-fit: contain;
+.clock{
+    display:flex;   
+    flex-wrap: wrap;
     color: white;
+    gap: 0px 30px;
+    font-size: large;
+    text-transform: uppercase;
+    justify-content: center;
+    font-size: 70px;
+    font-weight: bold;
+    
 }
-.timer {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+.clock_label{
+    font-size: 15px;
+}
+.clock > .time{
     display: flex;
-    font: 2em sans-serif;
     flex-direction: column;
-    align-content: space-around;
-    align-items: center;
-    justify-content: space-evenly;
-    object-fit: contain;
-    color: white;
+    width: 25%;
 }
-
-
-
-
-
