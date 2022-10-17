@@ -17,3 +17,7 @@
 .bg-secondary {
     background-color: var(--secondary-color);
 }
+
+html{
+    scroll-behavior:smooth;
+}

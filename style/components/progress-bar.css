@@ -25,7 +25,7 @@
     border-bottom-right-radius: 0;
 }
 
-.progress-bar .progress > .bar {
+.progress-bar .progress>.bar {
     background-color: var(--primary-color);
     height: 100%;
     width: 100%;

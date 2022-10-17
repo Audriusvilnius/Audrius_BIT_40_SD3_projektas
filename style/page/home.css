@@ -69,24 +69,41 @@ footer.container {
     color: #fffb;
 }
 
+.back-to-top {
+    float: right;
+
+    transform: translateX(-550%) translateY(-50%);
+    background-color: var(--secondary-color);
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    line-height: 50px;
+    text-decoration: none;
+    border-radius: 50%;
+
+}
+
+.back-to-top:hover {
+    text-decoration: none;
+}
+
 footer a {
     color: #fff;
     text-decoration: none;
 }
 
-footer a:hover {
-    text-decoration: underline;
-}
-.bottom-trio{
+.bottom-trio {
     display: flex;
     justify-content: center;
     gap: 0 30px;
 
 }
-.bottom-trio > span{
+
+.bottom-trio>span {
     position: relative;
 }
-.bottom-trio > span::after{
+
+.bottom-trio>span::after {
     content: '';
     display: inline-block;
     background-color: #fff;
@@ -95,17 +112,20 @@ footer a:hover {
     position: absolute;
     top: 0%;
     right: -15px;
-    transform:translate(-50% 50%);
-    
+    transform: translate(-50% 50%);
+
 }
-.bottom-trio > span:last-child::after{
+
+.bottom-trio>span:last-child::after {
     display: none;
 }
-@media (max-width: 700px){
-    .bottom-trio{
+
+@media (max-width: 700px) {
+    .bottom-trio {
         flex-direction: column;
     }
-    .bottom-trio > span::after{
+
+    .bottom-trio>span::after {
         display: none;
     }
 }
