@@ -1,0 +1,39 @@
+.mouse{
+    width: 2.2em;
+    height: 3.6em;
+    border: .25em solid #fff;
+    border-radius: 12em;
+    position: relative;
+
+}
+.mouse > .wheel{
+    width: .25em;
+    height: .36em;
+    background-color: #fff;
+    border-radius: .25em;
+    position: absolute;
+    top: .6em;
+    left: 50%;
+    transform: translateX(-50%);
+    animation-name: scroll;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-delay: 0s;
+    animation-timing-function: steps(1000);
+
+}
+@keyframes scroll {
+0%{
+    top: .6em;
+    opacity: 1;
+}
+67%{
+ 
+    opacity: 1;
+}
+100%{
+    top: 2.2em;
+    opacity: 0;
+}
+
+}
