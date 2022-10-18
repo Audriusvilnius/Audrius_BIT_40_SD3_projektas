@@ -71,7 +71,6 @@ footer.container {
 
 .back-to-top {
     float: right;
-
     transform: translateX(-550%) translateY(-50%);
     background-color: var(--secondary-color);
     width: 50px;

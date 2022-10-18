@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="./style/components/progress-bar.css">
     <link rel="stylesheet" href="./style/components/social.css">
     <link rel="stylesheet" href="./style/page/home.css">
+    <link rel="stylesheet" href="./style/components/form.css">
     <!-- custom style -->
     <script src="./js/timer.js"></script>
 
@@ -50,8 +51,13 @@
                         <p class="clock_label">Seconds</p>
                     </div>
                 </div>
-                <form>
-                    Form
+                <form class="form" >
+                    <div class="form-row">
+                        <input type="email" placeholder="Type your email" name="email" required>
+                    </div>
+                    <div class="form-row">
+                        <input type="submit" value="Subscribe">
+                    </div>
                 </form>
                 <div class="mouse">
                     <div class="wheel"></div>
@@ -102,8 +108,12 @@
                     <p class="section-description">You can use contact form below or us via e-mail at <a
                             href="mailto:matrox@mail.com">matrox@mail.com</a> Contact form is fully working and very
                         easy to customize.</p>
-                    <form>
-                        Massage form
+                    <form class="form">
+                        <input type="text" placeholder="Name" required autocomplet="name">
+                        <input type="email" placeholder="Email" required autocomplet="email">
+                        <textarea name="" id="" placeholder="Message" required autocomplet="off"></textarea>
+                        <button type="submit">Send message</button>
+                        
                     </form>
                 </div>
             </div>
@@ -113,8 +123,8 @@
         <div class="back-to-top social">
             <a class="fa fa-angle-up" href="#"></a>
         </div>
-       
-        <div class="row socials"> 
+
+        <div class="row socials">
             <!-- SOCIALS -->
             <a class="icon fa fa-facebook" href="https://www.facebook.com" target="_blank"></a>
             <a class="icon fa fa-twitter" href="https://www.twitter.com" target="_blank"></a>
